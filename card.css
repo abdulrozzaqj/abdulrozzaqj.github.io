@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	border: 0;
+}
+span{
+	display: block;
+}
+.container{
+	width: 1280px;
+	height: 881px;
+}
+.display{
+	width: 1280px;
+	height: 881px;
+	background-image: url(latar1-2.png);
+}
+.cardplace{
+	width: 755px;
+	height: 150px;
+	background-color: blue;
+}
+.cardplace{
+	bottom: 5px;
+	left: 259px;
+	position: fixed;
+}
+/*.allcard{
+	width: 145px;
+	height: 200px;
+	background-color: green;
+	text-align: center;
+}*/
+/*.allcard:hover{
+	background-color: pink;
+	transition-duration: .1s;*/
+/*}*/
+.tentara:hover{top: -100px;	transition-duration: .1s;}
+.pesawat:hover{top: -300px;	transition-duration: .1s;}
+.tank:hover{top: -500px;	transition-duration: .1s;}
+.meriam:hover{top: -700px;	transition-duration: .1s;}
+.misil:hover{top: -900px;	transition-duration: .1s;}
+.tentara{
+	left: 5px;
+	top: -50px;
+	position: relative;
+	background-image: url(tentara.png);
+	width: 145px;
+	height: 200px;
+	text-align: center;
+}
+.pesawat{
+	left: 155px;
+	top: -250px;
+	position: relative;
+	background-image: url(pesawat.png);
+	width: 145px;
+	height: 200px;
+	text-align: center;
+}
+.tank{
+	left: 305px;
+	top: -450px;
+	position: relative;
+	background-image: url(tank.png);
+	width: 145px;
+	height: 200px;
+	text-align: center;
+}
+.meriam{
+	left: 455px;
+	top: -650px;
+	position: relative;
+	background-image: url(meriam.png);
+	width: 145px;
+	height: 200px;
+	text-align: center;
+}
+.misil{
+	left: 605px;
+	top: -850px;
+	position: relative;
+	background-image: url(misil.png);
+	width: 145px;
+	height: 200px;
+	text-align: center;
+}
+.dataname{
+	width: 250px;
+	height: 75px;
+	/*background-color: blue;*/
+}
+.home{
+	position: relative;
+	top: 10px;
+	left: 5px;
+	border-radius: 75px 0px 0px 75px;
+}
+.away{
+	position: relative;
+	top: -65px;
+	left: 1025px;/*
+	border-radius: 0px 75px 75px 0px;*/
+}
+.profile{
+	width: 75px;
+	height: 75px;/*
+	background-color: green;*/
+	/*border-radius: 75px;*/
+}
+.awayp{
+	position: relative;
+	right: -175px;
+	background-image: url(compprofile.png);
+}
+.homep{
+	background-image: url(playerprofile.png);
+}
+.nama{
+	position: relative;
+	left: 79px;
+}
+.namakom{
+	position: relative;
+	left: -110px;
+}
+.satuan{
+	position: relative;
+	top: 4px;
+	left: -63px;
+}
+.puluhan{
+	position: relative;
+	top: 4px;
+	left: -61px;
+}

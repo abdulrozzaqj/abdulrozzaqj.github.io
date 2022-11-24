@@ -1,15 +1,275 @@
 *{margin: 0px;}
+body{
+	overflow: hidden;
+}
+h1, h2, h3, p, a{
+	color: white;
+}
+a:hover{
+	color: black;
+}
+h4{
+	color: black;
+}
+a{text-decoration:none}
 .container{
-	width: 1280px;
+	width: 100%;
 	height: 881px;
-	background-color: green;
+	background-color: black;
+	display: inline-block;
 }
 .layer1{
-	width: 1280px;
-	height: 75px;
-	background-color: yellow;
+	width: 100%;
+	height: 55px;
+	background-color: black;
+	position: relative;
+	display: inline-block;
+	z-index: 1px;
 }
 .layer2{
-	width: 1280px;
-	height: 700px;
-	background-color: orange;
+	width: 100%;
+	height: 870px;
+	border-top: 5px solid white;
+	background-color: rgba(0,0,222,.5);
+	display: inline-block;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	top: 0px;
+	position: relative;
+	z-index: 0px;
+}
+/*.garis{
+	width: 100%;
+	height: 5px;
+	display: inline-block;
+	position: relative;
+	top: -4px;
+	background-color: #ffffff;
+	border: 0px;
+}*/
+.menu, .layer1, .media-sosial, .Galeri-seni, .Daftar-serial, .permainan{
+	display: inline-block;
+}
+/*.menu{
+	border-color: #ffffff;
+	border-top: 5px;
+	border-left: 5px;
+	border-right: 5px;
+}*/
+.tombolp{
+	width: 100px;
+	height: 40px;
+	background-color: #FF0055;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+	left: 35px;
+	top: 15px;
+	bottom: 0px;
+	display: inline-block;
+}
+.media1{
+	position: relative;
+/*	top: 11px;*/
+	left: 70px;
+}
+.galeris1{
+	position: relative;
+	left: 105px;
+}.video1{
+	position: relative;
+	left: 140px;
+}
+.game1{
+	position: relative;
+	left: 175px;
+}
+.menu1{
+	border-top: 5px solid white;
+	border-left: 5px solid white;
+	border-right: 5px solid white;
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	z-index: 0;
+	transition: .3s;
+}
+.menu1:hover{
+	background-color: black;
+	z-index: 1;
+}
+.media1{
+	border-top: 5px solid white;
+	border-left: 5px solid white;
+	border-right: 5px solid white;
+	width: 100px;
+	height: 40px;
+	z-index: 0;
+	transition: .3s;
+}
+.media1:hover{
+	background-color: black;
+	z-index: 1;
+}
+.galeris1{
+	border-top: 5px solid white;
+	border-left: 5px solid white;
+	border-right: 5px solid white;
+	width: 100px;
+	height: 40px;
+	z-index: 0;
+	transition: .3s;
+}
+.galeris1:hover{
+	background-color: black;
+	z-index: 1;
+}
+.video1{
+	border-top: 5px solid white;
+	border-left: 5px solid white;
+	border-right: 5px solid white;
+	width: 100px;
+	height: 40px;
+	z-index: 0;
+	transition: .3s;
+}
+.video1:hover{
+	background-color: black;
+	z-index: 1;
+}
+.game1{
+	border-top: 5px solid white;
+	border-left: 5px solid white;
+	border-right: 5px solid white;
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	z-index: 0;
+	transition: .3s;
+}
+.game1:hover{
+	background-color: black;
+	z-index: 1;
+}
+.meme{
+	position: relative;
+	top: 7px;
+	text-align: center;
+}
+.profilec{
+	position: relative;
+/*	left: 10px;*/
+	top: 5px;
+	text-align: center;
+}
+.datamenu{
+	z-index: 0px;
+	width: 0%;
+	height: 0px;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	transition: 1s;
+}
+.datamenu:target {
+	z-index: 99px;
+	top: 0px;
+	bottom: 0px;
+	width: 100%;
+}
+.datamediasosial{
+	z-index: 1px;
+}
+.datagaleri{
+	z-index: 2px;
+}
+.dataserial{
+	z-index: 3px;
+}
+.datagame{
+	z-index: 4px;
+}
+.datamenu, .datamediasosial, .datagaleri, .dataserial, .datagame{
+	display: inline-block;
+}
+.lisensi{
+	margin-top: 20px;
+	width: 100%;
+	height: 250px;
+	border-top: 5px solid white;
+	background-color: black;
+}
+.datapribadi{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+.resmi2{
+	width: 100px;
+	height: 100px;
+	background-image: url("lisensi-resmi2.png");
+/*	background-color: #00ffde;*/
+}
+img{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+/*	margin-left: auto;
+	margin-right: auto;*/
+}
+ul, li{color: white;}
+.ggggg, br{
+	color: rgba(0.0.0.0);
+	display: inline-block;
+}
+.tutup, .tutup2, .tutup3, .tutup4{
+/*	float: right;*/
+	width: 25px;
+	height: 25px;
+	background-color: white;
+	margin-top: 5px;
+	margin-right: 5px;
+	position: absolute;
+	left: 97.5%;
+	opacity: .6;
+}
+.tutup:hover {
+	width: 25px;
+	height: 25px;
+	background-color: white;
+	margin-top: 5px;
+	margin-right: 5px;
+	position: absolute;
+	left: 97.5%;
+	opacity: 1;
+}
+.tutup2:hover {
+	width: 25px;
+	height: 25px;
+	background-color: white;
+	margin-top: 5px;
+	margin-right: 5px;
+	position: absolute;
+	left: 97.5%;
+	opacity: 1;
+}
+.tutup3:hover {
+	width: 25px;
+	height: 25px;
+	background-color: white;
+	margin-top: 5px;
+	margin-right: 5px;
+	position: absolute;
+	left: 97.5%;
+	opacity: 1;
+}
+.tutup4:hover {
+	width: 25px;
+	height: 25px;
+	background-color: white;
+	margin-top: 5px;
+	margin-right: 5px;
+	position: absolute;
+	left: 97.5%;
+	opacity: 1;
+}
